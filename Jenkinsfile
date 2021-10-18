@@ -16,7 +16,7 @@ pipeline {
         }
         stage('Publish'){
             steps {
-               ehco "hello" 
+               sh 'ehco "We finished successfully"' 
             }
         }
         }
