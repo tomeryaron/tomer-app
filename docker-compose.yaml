@@ -2,5 +2,7 @@ version: '3.3'
 
 services:
   tomer-app:
-    image: python:2.7-slim
+    image: tomer-app
     restart: always
+    ports:
+      - "5001:5001"
